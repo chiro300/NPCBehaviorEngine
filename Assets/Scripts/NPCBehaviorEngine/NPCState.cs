@@ -101,8 +101,6 @@ namespace Assets.Scripts.NPCBehaviorEngine
                 if (current.decision != null)
                     if (current.decision.ExecuteDecide() && !string.IsNullOrEmpty(current.toTrue))
                         Brain.TransitionToState(current.toTrue);
-                    else if (!string.IsNullOrEmpty(current.toFalse))
-                        Brain.TransitionToState(current.toFalse);
             }
         }
     }
