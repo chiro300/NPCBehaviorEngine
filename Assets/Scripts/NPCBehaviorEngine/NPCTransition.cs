@@ -11,8 +11,6 @@ namespace Assets.Scripts.NPCBehaviorEngine
     {
         public NPCDecision decision;
 
-        public string toTrue;
-
-        public string toFalse;
+        public string toTrue;        
     }
 }
