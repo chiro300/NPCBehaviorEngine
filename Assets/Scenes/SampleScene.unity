@@ -218,9 +218,9 @@ GameObject:
   - component: {fileID: 1578966573}
   - component: {fileID: 1578966576}
   - component: {fileID: 1578966572}
+  - component: {fileID: 1578966578}
   - component: {fileID: 1578966575}
   - component: {fileID: 1578966577}
-  - component: {fileID: 1578966578}
   m_Layer: 0
   m_Name: NPCTestOne
   m_TagString: Untagged
@@ -245,7 +245,6 @@ MonoBehaviour:
     transitions:
     - decision: {fileID: 1578966577}
       toTrue: Stop
-      toFalse: 
     actions:
     - {fileID: 1578966575}
   - label: Stop
